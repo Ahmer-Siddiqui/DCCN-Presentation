@@ -1,0 +1,20 @@
+.visit {
+    transition: all .5s ease;
+    color: #E1E2E3;
+    border: 3px solid #00ABF0;
+    font-family:'Montserrat', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1;
+    font-size: 17px;
+    background-color : transparent;
+    padding: 10px;
+    outline: none;
+    font-weight: 700;
+    border-radius: 4px;
+}
+.visit:hover {
+    color: #081B29;
+    font-weight: 900;
+    background-color: #fff;
+}

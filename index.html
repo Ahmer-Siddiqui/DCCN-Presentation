@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Personal Potfolio</title>
+
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- box icons -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <!-- Animation AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="stylesheet" href="mystyle.css" />
+  </head>
+
+  <body>
+    <!-- header design -->
+    <header class="header">
+      <a href="#" class="logo"
+        >Protocols<span class="animate" style="--i: 1"></span
+      ></a>
+
+      <div class="bx bx-menu" id="menu-icon">
+        <span class="animate" style="--i: 2"></span>
+      </div>
+
+      <nav class="navbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#smtp">SMTP</a>
+        <a href="#ftp">FTP</a>
+        <a href="#http">HTTP</a>
+        <a href="#https">HTTPS</a>
+        <a href="#httpmethod">HTTP Method</a>
+
+        <span class="active-nav"></span>
+        <span class="animate" style="--i: 2"></span>
+      </nav>
+    </header>
+
+    <!-- home section design -->
+    <section class="home show-animate" id="home">
+      <div class="home-content">
+        <h1>
+          Hi, I'm <span>Ahmer Aqeel</span
+          ><span class="animate" style="--i: 2"></span>
+        </h1>
+        <div class="text-animate">
+          <h3>BSCS from Iqra University</h3>
+          <span class="animate" style="--i: 3"></span>
+        </div>
+        <br />
+        <h1>What is Protocols:</h1>
+        <div
+          data-aos="fade-down"
+          data-aos-offset="200"
+          data-aos-delay="100"
+          data-aos-duration="1000"
+          data-aos-easing="ease-in-out"
+          class="largeFont"
+        >
+          Protocols are fundamental in the realm of computer networking and
+          communication. They define a set of rules and conventions that govern
+          how data is transmitted and received between devices over a network.
+          Essentially, protocols ensure that devices can communicate
+          effectively, regardless of their specific hardware, software, or
+          geographic locations.
+          <span class="animate" style="--i: 4"></span>
+        </div>
+      </div>
+
+      <div class="home-imgHover"></div>
+      <span class="animate home-img" style="--i: 7"></span>
+    </section>
+
+    <!-- SMTP section design -->
+    <section class="about full" id="smtp">
+      <h2 class="heading">
+        SMTP <span>Protocol</span
+        ><span class="animate scroll" style="--i: 1"></span>
+      </h2>
+
+      <div
+        data-aos="fade-down"
+        data-aos-offset="200"
+        data-aos-delay="100"
+        data-aos-duration="1000"
+        data-aos-easing="ease-in-out"
+        class="largeFont"
+      >
+        SMTP (Simple Mail Transfer Protocol) is the standard protocol used for
+        sending and receiving email messages on the internet. It operates on a
+        client-server model, where an SMTP client (typically an email client or
+        server) communicates with an SMTP server to send messages. SMTP handles
+        the transmission of email by defining how messages should be formatted,
+        transmitted, and relayed between servers. It uses TCP port 25 for
+        communication and ensures reliable delivery of emails by specifying
+        rules for routing, addressing, and error handling. SMTP also supports
+        authentication mechanisms to verify users and prevent unauthorized
+        access, ensuring secure and efficient email communication globally.
+      </div>
+    </section>
+
+    <!-- FTP section design -->
+    <section class="education full" id="ftp">
+      <h2 class="heading">
+        FTP <span>Protocol</span
+        ><span class="animate scroll" style="--i: 1"></span>
+      </h2>
+
+      <div
+        data-aos="fade-right"
+        data-aos-offset="200"
+        data-aos-delay="50"
+        data-aos-duration="1000"
+        data-aos-easing="ease-in-out"
+        class="largeFont"
+      >
+        FTP (File Transfer Protocol) is a method used to transfer files between
+        computers on a network, like the Internet. It uses two channels: one for
+        commands (port 21) and another for data transfer. FTP is useful for
+        tasks like uploading website files and sharing large files but sends
+        data, including passwords, in plain text, making it insecure. Secure
+        versions, FTPS and SFTP, encrypt the data to protect it. Popular FTP
+        clients are FileZilla and WinSCP, while common FTP servers include
+        vsftpd and ProFTPD.
+      </div>
+    </section>
+
+    <!-- Http section design -->
+    <section class="about full" id="http">
+      <h2 class="heading">
+        HTTP <span>Protocol</span
+        ><span class="animate scroll" style="--i: 1"></span>
+      </h2>
+
+      <div
+        data-aos="fade-up-right"
+        data-aos-offset="200"
+        data-aos-delay="100"
+        data-aos-duration="1000"
+        data-aos-easing="ease-in-out"
+        class="largeFont"
+      >
+        HTTP (Hypertext Transfer Protocol) is the foundation of data
+        communication on the web, used to transfer web pages and other content
+        from servers to browsers. When you enter a website URL, your browser
+        sends an HTTP request to the server, which then responds with the
+        requested content. HTTP operates over TCP, typically using port 80. A
+        secure version, HTTPS (using SSL/TLS encryption), ensures that data
+        transferred between your browser and the server is encrypted and secure,
+        commonly using port 443. HTTP is essential for loading web pages,
+        images, videos, and other resources on the internet.
+      </div>
+    </section>
+
+    <!-- HTTPS section design -->
+    <section class="education full" id="https">
+      <h2 class="heading">
+        HTTPS <span>Protocol</span
+        ><span class="animate scroll" style="--i: 1"></span>
+      </h2>
+
+      <div
+        data-aos="flip-left"
+        data-aos-offset="200"
+        data-aos-delay="50"
+        data-aos-duration="1000"
+        data-aos-easing="ease-in-out"
+        class="largeFont"
+      >
+        HTTPS (Hypertext Transfer Protocol Secure) is the secure version of
+        HTTP, used to encrypt data transfer between a user's browser and a web
+        server, ensuring privacy and security. It uses SSL/TLS protocols to
+        encrypt the data, protecting it from eavesdropping and tampering. HTTPS
+        operates over port 443 instead of HTTP's port 80. When you visit a
+        website with HTTPS, you see a padlock icon in the browser's address bar,
+        indicating that the connection is secure. This is crucial for sensitive
+        transactions, such as online banking, shopping, and any site requiring
+        personal information, as it helps prevent data breaches and cyber
+        attacks.
+      </div>
+    </section>
+
+    <!-- Http section design -->
+    <section class="about full http" id="httpmethod">
+      <h2 class="heading">
+        HTTP <span>Methods</span
+        ><span class="animate scroll" style="--i: 1"></span>
+      </h2>
+
+      <div class="mainBorder">
+        <div>
+          <div
+            class="borderColor"
+            data-aos="fade-down"
+            data-aos-offset="200"
+            data-aos-delay="100"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-out"
+          >
+            <span>GET</span> Retrieves data from the server. It should only
+            retrieve data and should not have any other effect. It's safe and
+            idempotent, meaning multiple identical requests should have the same
+            effect as a single request.
+          </div>
+          <div
+            class="borderColor"
+            data-aos="fade-up"
+            data-aos-offset="200"
+            data-aos-delay="100"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-out"
+          >
+            <span>POST</span> Submits data to be processed to a specified
+            resource. It's often used to create new resources. POST requests can
+            have side effects (like updating a database) and are not idempotent.
+          </div>
+        </div>
+        <div>
+          <div
+            class="borderColor"
+            data-aos="fade-up-left"
+            data-aos-offset="200"
+            data-aos-delay="100"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-out"
+          >
+            <span>PUT</span> Updates a resource or creates a new resource if it
+            doesn't exist at the specified URL. It's idempotent, meaning if you
+            make the same request multiple times, the result should be the same.
+          </div>
+          <div
+            class="borderColor"
+            data-aos="fade-left"
+            data-aos-offset="200"
+            data-aos-delay="100"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-out"
+          >
+            <span>DELETE</span> Deletes the specified resource at the URL. It's
+            used to remove a resource from the server and is generally
+            idempotent.
+          </div>
+        </div>
+      </div>
+      <a href="https://github.com/Ahmer-Siddiqui/Backend/blob/main/routes/listingsRoutes.js"  class="visit">Visit</a> 
+    </section>
+    <!-- footer design -->
+    <footer class="footer">
+      <div class="footer-text">
+        <p>
+          Copyright &copy; 2024 | Designed and Maintenance by Ahmer Siddiqui |
+          All Rights Reserved
+        </p>
+
+        <span class="animate scroll" style="--i: 1"></span>
+      </div>
+
+      <div class="footer-iconTop">
+        <a href="#"><i class="bx bx-up-arrow-alt"></i></a>
+
+        <span class="animate scroll" style="--i: 3"></span>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
